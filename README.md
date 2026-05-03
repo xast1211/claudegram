@@ -85,6 +85,35 @@ npm run dev
 
 ---
 
+## Obsidian Integration (optional)
+
+`VAULT_PATH` can point to **any folder** — it doesn't have to be an Obsidian vault. Claude will have full read/write access to whatever directory you point it at.
+
+If you use Obsidian and want Claude to understand your vault structure, naming conventions, and context, add a `CLAUDE.md` file to your vault root. This is a plain markdown file that tells Claude how your vault is organized, what projects are active, and any rules you want it to follow.
+
+Example `CLAUDE.md` structure:
+
+```markdown
+# Vault Context
+
+## About me
+...
+
+## Folder structure
+- **Projects/**: Active projects
+- **Daily Notes/**: Daily logs
+...
+
+## Rules
+- Use [[wikilinks]] for internal links
+- New notes without a clear place go into Inbox/
+...
+```
+
+Claude Code has native understanding of Markdown, wikilinks, and frontmatter — the `CLAUDE.md` just adds your personal context on top.
+
+---
+
 ## Voice Messages (optional)
 
 Install Whisper and ffmpeg:
