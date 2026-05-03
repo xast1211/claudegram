@@ -160,4 +160,4 @@ claudegram/
 
 ## License
 
-MIT — built by [Patrick Franke](https://github.com/pfranke-dev)
+MIT — built by [Patrick Franke](https://github.com/xast1211)
