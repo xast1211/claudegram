@@ -143,6 +143,16 @@ pm2-startup install   # sets up Windows Task Scheduler entry
 
 ---
 
+## Inspiration
+
+This project was inspired by a growing community interest in using Claude as a true "second brain" together with Obsidian — reading, searching, and actively working with your notes as a genuine knowledge base.
+
+The idea gained traction through a [r/ClaudeAI discussion](https://www.reddit.com/r/ClaudeAI/comments/1sczjpd/claude_and_obsidian_for_second_brain/) and the community pointing to **Andrej Karpathy's** public notes on his personal knowledge base setup using Obsidian ([his post on X](https://x.com/karpathy/status/2039805659525644595)).
+
+Claudegram takes a different technical approach than MCP or Obsidian plugins: instead of connecting Claude Desktop to the vault, it runs **Claude Code CLI** directly inside the vault directory — giving Claude full, native file access with no extra configuration.
+
+---
+
 ## How it works
 
 ```
