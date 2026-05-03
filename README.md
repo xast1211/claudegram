@@ -42,7 +42,7 @@ It bridges your Telegram chat directly to the Claude Code CLI running on your ma
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/pfranke-dev/claudegram.git
+git clone https://github.com/xast1211/claudegram.git
 cd claudegram
 npm install
 ```
