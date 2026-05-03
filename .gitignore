@@ -1,0 +1,9 @@
+node_modules/
+.env
+data/history.json
+*.log
+bin/ffmpeg.exe
+bin/ffprobe.exe
+bin/ffplay.exe
+
+data/config.json
